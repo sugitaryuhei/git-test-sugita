@@ -2,13 +2,15 @@ package com.example;
 
 public class Human {
 	
+
 	private int age;
 	private  String name;
+
 	public int getAge() {
-		return age;
+		return age-10;
 	}
 	public void setAge(int age) {
-		this.age = age;
+		this.age = age+10;
 	}
 	public String getName() {
 		return name;
